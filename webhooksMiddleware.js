@@ -52,7 +52,6 @@ const erc20MiddleWare = async (req, res, next) => {
     chainId,
     amountInUSD,
     senderAddress,
-    decimals,
     tokenDecimals,
     tokenAddress,
     amountWithoutDecimals,
